@@ -42,6 +42,13 @@ If more than one message bit is set to `true`, the most significant bit will tak
 
 The bit mapping for messages can be found in the source code and looks as follows:
 
+```c
+// Bit mapping
+#define ENTER_BIT_IDX        0
+#define DONOTDISTURB_BIT_IDX 1
+#define MEETING_BIT_IDX      2
+```
+
 #### URLs
 
 ##### "Meeting in progress"
@@ -58,13 +65,6 @@ The bit mapping for messages can be found in the source code and looks as follow
 
  * http://<device_ip>/enter?on
  * http://<device_ip>/enter?off
-
-```c
-// Bit mapping
-#define ENTER_BIT_IDX        0
-#define DONOTDISTURB_BIT_IDX 1
-#define MEETING_BIT_IDX      2
-```
 
 ### Wall Mount
 
