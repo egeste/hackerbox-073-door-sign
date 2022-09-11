@@ -77,7 +77,7 @@ Included in this repository is a [3d printable STL file for mounting your board.
 
 #### Hubitat
 
-Hubitat provides a handly [HTTP GET switch](https://github.com/hubitat/HubitatPublic/blob/master/examples/drivers/httpGetSwitch.groovy) virtual device.
+Hubitat provides a handy [HTTP GET switch](https://github.com/hubitat/HubitatPublic/blob/master/examples/drivers/httpGetSwitch.groovy) virtual device.
 
  1. Follow the directions on the [Hubitat documentation](https://docs.hubitat.com/index.php?title=How_to_Install_Custom_Drivers) to install this driver.
  1. Connect to your Hubitat dashboard
